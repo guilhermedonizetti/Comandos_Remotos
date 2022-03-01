@@ -11,6 +11,14 @@ Interagir remotamento com o computador através do Python e protocolo MQTT. :com
 :arrow_right: <b>Verifica se é link:</b> se a mensagem recebida possuir característica de link, o programa irá iniciar esse conteúdo no navegador padrão.<br>
 :arrow_right: <b>Verifica se é um programa:</b> se a mensagem transmitida para o computador for o nome de um software (ex.: Postman), o programa vai iniciar esse software.<br>
 
+Vídeo de demonstração, clique sobre a imagem para ver:<br>
+
+<p align="center">
+<a href="https://youtu.be/0vU_nm_ifnw" target="_blank">
+  <img src="https://imagepng.org/wp-content/uploads/2017/09/youtube-play-icone.png" width="130" height="80">
+</a>
+</p>
+
 <b>Comunicação:</b> Para transmitir os comandos do celular para o notebook, foi usado o aplicativo MQTT Dash que permite conectar a brokers e publicar ou receber cargas úteis. No caso, foi usado unicamente para publicar mensagens. Foi usado o broker remoto de teste TestMosquitto. O celular transmite as mensagens para esse destino e o programa que executa no computador se conecta a esse broker para receber as mensagens, ou seja, o celular pode estar em qualquer distância do computador, pois a conexão é realmente remota.
 
 <p align="center">
